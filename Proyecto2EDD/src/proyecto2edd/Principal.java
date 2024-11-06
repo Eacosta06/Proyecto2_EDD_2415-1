@@ -9,12 +9,16 @@ package proyecto2edd;
  * @author esteacosta
  */
 public class Principal extends javax.swing.JFrame {
+    ArchivoJson Abrir_archivo;
 
     /**
      * Creates new form Principal
      */
     public Principal() {
         initComponents();
+        Abrir_archivo = new ArchivoJson();
+        Abrir_archivo.setVisible(true);
+        this.setVisible(false);
     }
 
     /**
